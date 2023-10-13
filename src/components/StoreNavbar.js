@@ -11,7 +11,7 @@ const StoreNavbar = () => {
                     <LinkContainer to="/">
                         <Nav.Link>Home</Nav.Link>
                     </LinkContainer>
-                    <LinkContainer to="/cart">
+                    <LinkContainer to="/cart" data-testid="cart-link">
                         <Nav.Link>Cart</Nav.Link>
                     </LinkContainer>
                 </Nav>
